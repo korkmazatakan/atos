@@ -12,7 +12,6 @@ import (
 )
 
 func main() {
-    // commit test
 	router := gin.Default()
 
 	router.Use(middleware.CORSMiddleware())
